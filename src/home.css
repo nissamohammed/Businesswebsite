@@ -1,0 +1,177 @@
+
+.logohead1{
+    font-family: "Allura", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+/*animation*/
+.mainhead{
+    animation: appear 2s linear;
+    
+}
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+.logooimg{
+    animation: appear 2s linear
+}
+
+/*another*/
+.custom-shape-divider-top-1731152553{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.custom-shape-divider-top-1731152553 svg{
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 200px;
+    /*margin-bottom: -200px;*/
+}
+.div1{
+    background-color: rgb(240, 198, 75);
+    height: 100vh;
+    margin-top: -10px;
+}
+.custom-shape-divider-top-1731152553 .shape-fill{
+    fill: rgba(255, 255, 255, 0.997);
+   
+}
+
+/*second wave*/
+.custom-shape-divider-top-1731161941 {
+    position: absolute;
+    top: -10;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    height: 600px;
+}
+
+.custom-shape-divider-top-1731161941 svg {
+    position: relative;
+    display: block;
+    width: calc(117% + 1.3px);
+    height: 53px;
+}
+
+.custom-shape-divider-top-1731161941 .shape-fill {
+    fill: #ffffff;
+}
+.services{
+    margin-left: 100px;
+}
+/*third wavw*/
+.custom-shape-divider-bottom-1731211367 {
+    position: absolute;
+    bottom:-2750px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1731211367 svg {
+    position: relative;
+    display: block;
+    width: calc(159% + 1.3px);
+    height: 600px;
+}
+
+.custom-shape-divider-bottom-1731211367 .shape-fill {
+    fill: #ffffff;
+}
+
+/*forth waave*/
+
+.custom-shape-divider-top-1731217009 {
+    position: absolute;
+    top: 270rem;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    height: 860px;
+}
+
+.custom-shape-divider-top-1731217009 svg {
+    position: relative;
+    display: block;
+    width: calc(166% + 1.3px);
+    height: 800px;
+    margin-top: 300px;
+}
+
+.custom-shape-divider-top-1731217009 .shape-fill {
+    fill: #ffffff;
+}
+footer{
+  margin-top: 950px; 
+  background-color: rgb(55, 53, 53);
+  color: white;
+  height: 600px;
+  text-align: center;
+  
+}
+@media (max-width: 600px) {
+    .logooimg{
+       width: 200px;
+       margin-left: 160px;
+       margin-top: -150px;
+    }
+    .logoimg2{
+        width: 400px; 
+       margin-left: 60px;
+    }
+    /*wave-3 */
+    
+    .imgbook{
+        width: 250px;
+        margin-left: 50px;
+        margin-bottom: -60px;
+    }
+    .formdiv{
+        padding: -20px 20px 20px 30px;
+       text-align: end;
+    }
+    .formdiv h1,
+        h3,
+        h4 {
+            font-size: 20px;
+            width: 300px;
+    }
+    form{
+       width: 300px;
+    }
+    footer h4,p{
+       font-size: 10px;  
+       
+    }
+    .custom-shape-divider-top-1731217009 {
+        height: 1000px;
+    }
+    .services{
+    margin-left: 20px;
+    }
+    .contdiv h4,p{
+        display: none;
+    }
+    .helpdiv{
+       margin-right: 110px;
+    }
+    
+}
